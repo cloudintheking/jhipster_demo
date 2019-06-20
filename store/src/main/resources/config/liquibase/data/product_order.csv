@@ -1,0 +1,11 @@
+id;placed_date;status;code;invoice_id;customer_id
+1;2019-06-18T21:44:45;COMPLETED;invoice Outdoors New York;94023;9
+2;2019-06-19T00:20:59;PENDING;parsing Investment Account;82042;10
+3;2019-06-18T22:31:32;CANCELLED;Books Generic;68300;4
+4;2019-06-19T12:27:09;COMPLETED;wireless;26069;3
+5;2019-06-19T02:15:22;CANCELLED;Personal Loan Account HTTP;73507;5
+6;2019-06-18T18:52:39;CANCELLED;Wyoming interface Cotton;25001;8
+7;2019-06-19T00:13:41;PENDING;bandwidth;75087;8
+8;2019-06-18T20:03:07;CANCELLED;Liechtenstein Buckinghamshire monetize;29763;9
+9;2019-06-19T11:45:41;COMPLETED;time-frame Quality;95060;5
+10;2019-06-19T00:23:55;PENDING;Money Market Account;55370;7

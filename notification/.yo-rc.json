@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.dreams.demo.notification",
+    "packageFolder": "com/dreams/demo/notification",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "notification",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "buildTool": "maven",
+    "serverPort": "8082",
+    "skipUserManagement": true,
+    "jhipsterVersion": "6.1.0",
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "MmM1MmFjYTlkMWM0ZGEzMjI2MWI4NTM4YzZlYWY3NGQzNzI3YzgyMDFhMGM0MjM3MmQ3ZWJiYjVlNzNhMjJkYjk1ZDA1YTQxMTY5Y2I3Mzc4NDBjMThjZjg1NGVjYTE5NDQ1ZWU1N2Q4YzRlNDUwMDI5NjIwNjM1Mjc5YWE5OGU=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "Notification"
+  ]
+}

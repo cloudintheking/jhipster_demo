@@ -1,0 +1,56 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en", "fr"],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.dreams.demo.store",
+    "packageFolder": "com/dreams/demo/store",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": false,
+    "skipServer": false,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "store",
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "buildTool": "maven",
+    "blueprint": "generator-jhipster-vuejs",
+    "useSass": true,
+    "jhipsterVersion": "6.1.0",
+    "skipUserManagement": false,
+    "clientPackageManager": "npm",
+    "serverPort": "8080",
+    "clientFramework": "angularX",
+    "jwtSecretKey": "YmI2ODYxZmM5YWQwMWM4MzY3NjYwMzZlNzZkMDAxZGYxZGZhMGJlOWYwMjFhOTc2ZjE4YmY0ODJkOGM0OTIzNDZjMjA3NTUxNWZiZmJlYTBjYTE5ZDE2NTNjODA5MThjMjE0NTE1ZTk4YjY5N2Y3Yjk2NGE1MWRiZDY3ZWMxZjI=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.0.0"
+      }
+    ],
+    "blueprintVersion": "1.0.0"
+  },
+  "entities": ["Product", "ProductCategory", "Customer", "ProductOrder", "OrderItem", "Invoice", "Shipment", "Notification"],
+  "generator-jhipster-vuejs": {
+    "jhipsterVersion": "6.0.1",
+    "applicationType": "gateway",
+    "baseName": "store",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "useSass": true,
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "languages": ["en", "fr"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "docker-compose",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "directoryPath": "../",
+    "appsFolders": [
+      "store",
+      "invoice",
+      "notification"
+    ],
+    "clusteredDbApps": [],
+    "consoleOptions": [],
+    "serviceDiscoveryType": "eureka",
+    "dockerRepositoryName": "fg",
+    "dockerPushCommand": "docker push",
+    "jwtSecretKey": "OTFhOTJiZTU4NzgxZjY3NzkzYzZmMjQzZGUwMjVhZDUwOWYxN2Y2YTk0ZTlhYjQ1NGQxYzBjMTQ0ZmY5M2M3YWQwYjdiYzU1N2I2Y2YyNzU3MjNjZTczMGI5Nzg4MzA1MGM4Zg=="
+  }
+}
